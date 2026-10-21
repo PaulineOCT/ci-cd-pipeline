@@ -1,0 +1,65 @@
+CI/CD
+Software Development Lifecycle
+DEFINING THE OBJECTIVE
+Requirement gathering
+PLANNING
+Plan Stage
+DESIGNING
+Define the solution structure
+CODING
+Knowing the requirements, the resource limitations and the solution's structure it is start to code.
+Define the design patterns that were going o be used so developers should follow that;
+Producing source code
+Guidelines must be clear, using source control, keep tracking changes, 
+Pushing the respective changes to a single copy (often hosted in the could)
+TESTING
+Downloading the source code form the cloud, execute tests looking for any deficiencies in the code and examine whether or not the solution is complete;
+Test against the requirements to ensure that the solution meets them.
+User Interface Tests (tester run through the list of scenarios and evaluate if the UI reacts to the interactions successfully)
+Testing defects and let the developers know of any issues
+Using Beta-Testers (they need to see the same User Interface)
+DEPLOYING
+Giving new version of the solution
+
+ENVIRONMENT PROBLEMS
+
+BOTTLENECKS THAT SLOW DELIVERY OF VALUE
+Poor understanding of our users
+Badly configured package
+Delays in delivery, not regular
+Not tracking changes
+Internal bureaucracy and inefficient processes
+We failed to integrate the code from every developer efficiently
+We don't understand what was valuable in the first place
+We fail to discover our users and the project's stakeholder's needs
+
+STREAMLINING THE SOFTWARE RELEASE PROCESS: 
+Create a package of the entire project
+Make sure that the package is marked as a new version
+Make sure that the package is signed with the relevant credentials
+Make sure that the package is requesting the necessary permissions
+Upload the package
+Wait for the package to process
+Make sure that the information listed in the store is correct
+Wait for the package to be approved
+Wait for the approved package to be available form the store
+
+Make sure that: 
+Every user see the same UI
+Every department has the same visualization of the solution; 
+Communication between different department work well
+
+
+Git create a new repository on the command line:
+echo "# ci-cd-pipeline" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M master
+git remote add origin https://github.com/PaulineOCT/ci-cd-pipeline.git
+git push -u origin master
+
+Git push an existing repository from the command line
+git remote add origin https://github.com/PaulineOCT/ci-cd-pipeline.git
+git branch -M master
+git push -u origin master
